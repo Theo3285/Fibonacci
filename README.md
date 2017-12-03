@@ -1,6 +1,6 @@
 # Fibonacci Sequence Kata
 
-This is kata is for practicing TDD triangulation
+This kata is for practicing TDD triangulation
 
 The algorithm is simple but the goal is to implement it with very small steps
 
