@@ -2,7 +2,7 @@
 
 This is kata is for practicing TDD triangulation
 
-The algorithm is simple but the goal is to implement with very small steps
+The algorithm is simple but the goal is to implement it with very small steps
 
 ## Requirements
 The Fibonacci Sequence is the series of numbers:
@@ -25,8 +25,6 @@ Here is a longer list:
 ## Priority Premise
 
 ### The Transformations
-
-So what are these transformations? Perhaps we can make a list of them:
 
 * ({}–>nil) no code at all->code that employs nil
 * (nil->constant)
