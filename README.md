@@ -1,11 +1,11 @@
-# Fibonacci Sequence Kata
+# com.kata.tdd.Fibonacci Sequence Kata
 
 This kata is for practicing TDD triangulation
 
 The algorithm is simple but the goal is to implement it with very small steps
 
 ## Requirements
-The Fibonacci Sequence is the series of numbers:
+The com.kata.tdd.Fibonacci Sequence is the series of numbers:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 

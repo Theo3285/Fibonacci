@@ -1,5 +1,6 @@
-public class Fibonacci {
+package com.kata.tdd;
 
+public class Fibonacci {
     public long[] generate(int length) {
         long[] sequence = new long[length];
         for (int i = 0; i < length; i++) {

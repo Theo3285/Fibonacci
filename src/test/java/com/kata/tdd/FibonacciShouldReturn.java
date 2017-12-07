@@ -1,3 +1,6 @@
+package com.kata.tdd;
+
+import com.kata.tdd.Fibonacci;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -7,31 +10,38 @@ public class FibonacciShouldReturn {
 
     private Fibonacci fibonacci;
 
-    @Before public void setUp() {
+    @Before
+    public void setUp() {
         fibonacci = new Fibonacci();
     }
 
-    @Test public void zeroForFirstNumber() {
+    @Test
+    public void zeroForFirstNumber() {
         assertEquals(0, getNumberAtIndex(0));
     }
 
-    @Test public void oneForSecondNumber() {
+    @Test
+    public void oneForSecondNumber() {
         assertEquals(1, getNumberAtIndex(1));
     }
 
-    @Test public void oneForThirdNumber() {
+    @Test
+    public void oneForThirdNumber() {
         assertEquals(1, getNumberAtIndex(2));
     }
 
-    @Test public void twoForTheFourthNumber() {
+    @Test
+    public void twoForFourthNumber() {
         assertEquals(2, getNumberAtIndex(3));
     }
 
-    @Test public void fiveForTheFifthNumber() {
+    @Test
+    public void fiveForSixthNumber() {
         assertEquals(5, getNumberAtIndex(5));
     }
 
-    @Test public void hugeValueForFiftiethNumber() {
+    @Test
+    public void hugeValueForFiftiethNumber() {
         assertTrue(getNumberAtIndex(49) > 1000000000);
     }
 
